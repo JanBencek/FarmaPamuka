@@ -1,2 +1,3 @@
 # FarmaPamuka
-A team-collaboration repository for SJiWP
+
+A team-collaboration repository for SJiWP Team website

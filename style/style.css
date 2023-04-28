@@ -17,6 +17,7 @@ body{
 html {
   font-size: 62.5%;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -81,6 +82,7 @@ body {
   margin: 0 auto;
   margin-top: 12.8rem;
   padding-bottom: 12.8rem;
+  flex-wrap: wrap;
 }
 
 .hero__container--text {
@@ -109,7 +111,7 @@ body {
 
 /* TEAM */
 .section--team {
-  width: 100vw;
+  width: 100%;
   padding: 9.6rem 0;
   min-height: 40vh;
   border-bottom: 1px solid #c7c7c7aa;
@@ -132,6 +134,7 @@ body {
 .team__grid1 {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   /* width: 60%; */
   margin: 0 auto;
   /* margin-top: 6.4rem; */
@@ -142,6 +145,7 @@ body {
 .team__grid2 {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   /* width: 60%; */
   margin: 0 auto;
   /* margin-top: 6.4rem; */
@@ -219,4 +223,17 @@ justify-content: center;
 .copyright {
   color: #fff;
   font-size: 1.8rem;
+}
+
+
+@media (max-width: 650px) {
+  .hero__img{
+    width: 100%;
+  }
+  .team__grid2 {
+    margin-top: 6.4rem;
+  }
+  .hero__container {
+    justify-content: start;
+}
 }

@@ -84,10 +84,7 @@ body {
 	padding-bottom: 12.8rem;
 	text-align: center;
 	flex-wrap: wrap;
-}
-
-.hero__container--text {
-	margin-right: 7.2rem;
+	flex-direction: column;
 }
 
 .hero__title {

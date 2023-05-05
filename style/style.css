@@ -29,22 +29,6 @@ body {
 }
 
 /* NAVIGATION */
-.logo__img{
-	width: 20rem;
-	transition: transform 2.5s,rotate 2.5s;
-  }
-  
-  .logo__img:hover{
-	transform: scale(1.5);
-	rotate: 360deg;
-  }
-  
-  .logo__container--img {
-	text-align: left;
-	margin-left: 1vw;
-	margin-top: 1vw;
-	margin-bottom: -18rem;
-  }
 
 .nav {
 	display: flex;
@@ -169,35 +153,44 @@ body {
 }
 
 .team__member {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.2rem;
-  justify-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.2rem;
+	justify-items: center;
+}
+
+.member__role {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: all 0.4s;
+	font-size: 1.5rem;
+	color: var(--darkgreen);
+	text-align: center;
+}
+
+.team__pic:hover ~ .member__role {
+	opacity: 1;
+	transform: translateY(-5px);
+	transition-delay: 200ms;
 }
 
 .team__pic {
-  height: 12.8rem;
-  width: 12.8rem;
-  transition: transform 1s,margin 1s;
+	transform: translateY(35px);
+	height: 12.8rem;
+	width: 12.8rem;
+	transition: all 0.4s;
 }
 
-
-.team__pic:hover + .member__name{
-  transform: scale(1.4);
-}
-
-.team__pic:hover{
-  transform: scale(1.5);
-  margin: 2rem;
+.team__pic:hover {
+	transform: translateY(10px);
 }
 
 .member__name {
-  font-size: 2.2rem;
-  color: #525252;
-  transition: transform 1s;
+	font-size: 2.2rem;
+	color: var(--darkgreen);
 }
 
 /* PROJECT SECTION */
@@ -236,36 +229,6 @@ body {
 	outline-offset: -1rem;
 }
 
-/* Karlo */
-.karlo__heading{
-  font-size: 3.2rem;
-  letter-spacing: 3px;
-  text-align: center;
-  margin-bottom: 6.4rem;
-}
-
-.karlo__heading:before{
-  content: "";
-  display: inline-block;
-  height: 0.5em;
-  vertical-align: bottom;
-  width: 29vw;
-  margin-right: 1vw;
-  border-top: 3px solid;
-  border-color: var(--lightgreen);
-}
-
-.karlo__heading:after{
-  content: "";
-  display: inline-block;
-  height: 0.5em;
-  vertical-align: bottom;
-  width: 29vw;
-  margin-left: 1vw;
-  border-top: 3px solid;
-  border-color: var(--lightgreen);
-}
-
 /* FOOTER */
 .footer {
 	background-color: var(--lightgreen);
@@ -291,13 +254,4 @@ body {
 	.hero__container {
 		justify-content: start;
 	}
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
 }

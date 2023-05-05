@@ -78,13 +78,17 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
 	margin-top: 12.8rem;
 	padding-bottom: 12.8rem;
 	text-align: center;
-	flex-wrap: wrap;
-	flex-direction: column;
+	flex-direction: row;
+	text-align: center;
+}
+
+.hero__container--text {
+	text-align: center;
 }
 
 .hero__title {
@@ -100,11 +104,12 @@ body {
 }
 
 .hero__container--img {
-	text-align: center;
+	justify-content: center;
 }
 
 .hero__img {
-	width: 40rem;
+	width: 45rem;
+	align-items: start;
 }
 
 /* TEAM */

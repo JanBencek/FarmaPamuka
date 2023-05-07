@@ -83,7 +83,7 @@ body {
 	margin-top: 12.8rem;
 	padding-bottom: 12.8rem;
 	text-align: center;
-	flex-direction: row;
+	flex-direction: column;
 	text-align: center;
 }
 
@@ -131,7 +131,13 @@ body {
 	font-size: 3.2rem;
 	color: var(--darkgreen);
 	letter-spacing: 6px;
-	margin-bottom: 6.4rem;
+	transition: all 0.4s;
+	padding: 1rem;
+}
+
+.team__heading:hover {
+	color: var(--cream);
+	background-color: #6ba368;
 }
 
 .team__grid1 {
@@ -165,6 +171,11 @@ body {
 	flex-wrap: wrap;
 	gap: 1.2rem;
 	justify-items: center;
+	transition: all 0.4s;
+}
+
+.team__member:hover {
+	transform: scale(1.2);
 }
 
 .member__role {
@@ -178,7 +189,7 @@ body {
 
 .team__pic:hover ~ .member__role {
 	opacity: 1;
-	transform: translateY(-5px);
+	transform: translateY(0px);
 	transition-delay: 200ms;
 }
 
@@ -198,10 +209,19 @@ body {
 	color: var(--darkgreen);
 }
 
+.member__effect {
+	transition: all 0.4s;
+}
+
+.member__effect:hover {
+	transform: scale(1.4);
+}
+
 /* PROJECT SECTION */
 .section--project {
 	padding: 7.2rem 0;
 	padding-bottom: 14.8rem;
+	transition: all 0.4s;
 }
 
 .project__heading {
@@ -210,6 +230,7 @@ body {
 	letter-spacing: 6px;
 	margin-bottom: 5.4rem;
 	text-align: center;
+	transition: all 0.4s;
 }
 
 .project__container {
@@ -219,6 +240,11 @@ body {
 	margin: 0 auto;
 	border-radius: 20px;
 	background-color: var(--darkgreen);
+	transition: all 0.4s;
+}
+
+.project__heading:hover + .project__container {
+	background-color: var(--lightgreen);
 }
 
 .random-white {

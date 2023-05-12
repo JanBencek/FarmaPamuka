@@ -314,10 +314,6 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-	.team__grid1 {
-		/* width: 68%; */
-	}
-
 	.team__pic {
 		height: 9.6rem;
 		width: 9.6rem;

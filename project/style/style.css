@@ -6,7 +6,8 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-position: 8vh 0;
 }
 
 .header {
@@ -14,14 +15,17 @@ html {
 }
 
 .nav {
-  width: 96vw;
+  width: 100vw;
   display: flex;
   margin: 0 auto;
   margin-top: 2vh;
+  padding-bottom: 3vh;
+  border-bottom: #0000001a solid 2px;
 }
 
 .nav-logo {
   width: 16rem;
+  margin-left: 4vw;
   margin-right: auto;
 }
 
@@ -38,10 +42,13 @@ html {
   padding: 1.2rem 2rem;
   border-radius: 11px;
   transition: all 0.4s ease;
+  border: transparent solid 2px;
 }
 
 .nav__li:hover {
-  background-color: #4dd32050;
+  border: transparent solid 2px;
+  border-radius: 17% 83% 18% 82% / 98% 0% 100% 2%;
+  background-color: #4caa2d50;
 }
 
 .nav__li a {
@@ -61,6 +68,13 @@ html {
   font-size: 2rem;
   color: #fff;
   font-weight: 700;
+  margin-right: 4vw;
+  transition: ease-in-out all 0.2s;
+}
+
+.nav-cta:hover {
+  background-color: #fff;
+  color: #2d880e;
 }
 
 .hero {
@@ -68,47 +82,7 @@ html {
   display: flex;
   justify-content: center;
   /* gap: 9.6rem; */
-  width: 90vw;
+  width: 100vw;
   margin: 0 auto;
   padding-top: 4.8rem;
-}
-
-.hero .text-box {
-  margin-top: 12.8rem;
-  margin-left: 6.4rem;
-  position: relative;
-}
-
-.hero .img-box {
-  margin-top: 6.4rem;
-  width: 64rem;
-}
-
-.hero__img {
-  width: 90%;
-}
-
-.hero h1 {
-  color: #2d880e;
-
-  font-size: 9.6rem;
-  font-weight: 700;
-  letter-spacing: 0.4rem;
-  line-height: 1.1;
-  margin-bottom: 3.2rem;
-  width: 80rem;
-}
-
-.hero p {
-  font-size: 6.4rem;
-  color: #7aec53;
-  font-weight: 700;
-}
-
-.sun__icon {
-  width: 17rem;
-  position: absolute;
-  top: -24%;
-  left: 50%;
-  transform: translateX(-50%);
 }

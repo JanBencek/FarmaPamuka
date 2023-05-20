@@ -8,6 +8,7 @@ html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
   background-position: 8vh 0;
+  background-color: #f1ecce;
 }
 
 .header {
@@ -17,7 +18,7 @@ html {
 /*NAVBAR*/
 
 .nav {
-  width: 100vw;
+  width: 100%;
   display: flex;
   margin: 0 auto;
   margin-top: 2vh;
@@ -28,7 +29,7 @@ html {
 .nav-logo {
   width: 16rem;
   margin-left: 4vw;
-  margin-right: 5px;
+  margin-right: auto;
 }
 
 .nav__ul {
@@ -42,18 +43,19 @@ html {
 .nav__li {
   display: inline-block;
   padding: 1.2rem 2rem;
-  border-radius: 11px;
-  transition: all 0.4s ease;
-  border: transparent solid 2px;
 }
 
-.nav__li:hover {
+.nav__li a:hover {
   border: transparent solid 2px;
   border-radius: 17% 83% 18% 82% / 98% 0% 100% 2%;
   background-color: #4caa2d50;
 }
 
 .nav__li a {
+  transition: all 0.4s ease;
+  border: transparent solid 2px;
+  border-radius: 11px;
+  padding: 1.2rem 2rem;
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
@@ -79,25 +81,36 @@ html {
   color: #2d880e;
 }
 
-.active{
-	border: #2d880e inset 2px;
-	background-color: rgba(0, 255, 13, 0.05);
+.active a {
+  border: #2d880e inset 2px;
+  background-color: rgba(0, 255, 13, 0.05);
 }
 
 .hero {
   height: 90vh;
-  display: flex;
-  justify-content: center;
+  /*display: flex;*/
+
   /* gap: 9.6rem; */
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
   padding-top: 4.8rem;
+}
+
+.card-container {
+  justify-content: center;
+  display: flex;
   flex-wrap: wrap;
+}
+
+p {
+  font-size: 1.5rem;
 }
 
 /*cards*/
 
 .card {
+  user-select: none;
+  background-color: #4caa2d1c;
   display: flex;
   text-align: center;
   min-width: 30%;
@@ -106,23 +119,30 @@ html {
   border: #000 solid 2px;
   border-radius: 10px;
   flex-grow: 0.00001;
-  transition: flex-grow 1s linear;
+  transition: flex-grow 0.5s linear;
+  cursor: zoom-in;
 }
+
 .card h2 {
   font-size: large;
   margin: auto;
 }
+
 .card p {
-  font-size: 12px;
+  font-size: 0px;
   padding: 5%;
   margin: auto;
   font-size: 0px;
   transition: all 1s;
 }
-.card:hover {
+
+.card-active {
+  align-self: flex-end;
+  cursor: zoom-out;
   flex-grow: 2;
 }
-.card:hover > p {
+
+.card-active > p {
   display: block;
-  font-size: 12px;
+  font-size: 1.5rem;
 }

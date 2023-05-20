@@ -1,3 +1,4 @@
+//Kad se klikne karta stavi .active klasu ili ak vec ima makne
 cards = document.getElementsByClassName("card");
 console.log(cards.length);
 for (var i = 0; i < cards.length; i++) {

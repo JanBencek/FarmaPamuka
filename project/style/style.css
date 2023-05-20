@@ -8,19 +8,23 @@ html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
   background-position: 8vh 0;
+  background-color: #f1ecce;
 }
 
 .header {
   height: 8vh;
 }
-
 .nav {
-  width: 100vw;
+  width: 100%;
   display: flex;
   margin: 0 auto;
   margin-top: 2vh;
   padding-bottom: 3vh;
   border-bottom: #0000001a solid 2px;
+}
+
+.nav a {
+  margin: auto auto auto 0px;
 }
 
 .nav-logo {
@@ -40,18 +44,19 @@ html {
 .nav__li {
   display: inline-block;
   padding: 1.2rem 2rem;
-  border-radius: 11px;
-  transition: all 0.4s ease;
-  border: transparent solid 2px;
 }
 
-.nav__li:hover {
+.nav__li a:hover {
   border: transparent solid 2px;
   border-radius: 17% 83% 18% 82% / 98% 0% 100% 2%;
   background-color: #4caa2d50;
 }
 
 .nav__li a {
+  transition: all 0.4s ease;
+  border: transparent solid 2px;
+  border-radius: 11px;
+  padding: 1.2rem 2rem;
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
@@ -82,7 +87,12 @@ html {
   display: flex;
   justify-content: center;
   /* gap: 9.6rem; */
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
   padding-top: 4.8rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
 }

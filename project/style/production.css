@@ -26,6 +26,10 @@ html {
   border-bottom: #0000001a solid 2px;
 }
 
+.nav a {
+  margin: auto auto auto 0px;
+}
+
 .nav-logo {
   width: 16rem;
   margin-left: 4vw;
@@ -96,17 +100,17 @@ html {
   padding-top: 4.8rem;
 }
 
-.card-container {
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 p {
   font-size: 1.5rem;
 }
 
 /*cards*/
+
+.card-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .card {
   user-select: none;
@@ -145,4 +149,9 @@ p {
 .card-active > p {
   display: block;
   font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
 }

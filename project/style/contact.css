@@ -1,0 +1,79 @@
+.contact {
+  padding: 8.6rem 0;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.contact-text {
+  margin-bottom: 4.8rem;
+}
+
+.contact-text h3 {
+  font-size: 1.8rem;
+  color: #7c9a7a;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.contact-text h2 {
+  font-size: 4rem;
+  color: #2c7426;
+  font-weight: 400;
+}
+
+.contact-form label {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #000;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.contact-form input {
+  height: 4rem;
+  width: 20rem;
+  padding-left: 1.2rem;
+  border-radius: 9px;
+  margin-bottom: 3.2rem;
+}
+
+.contact-form div {
+  display: inline-block;
+  margin-right: 4rem;
+}
+
+.email {
+  display: block;
+}
+
+.email input {
+  width: 30rem;
+}
+
+.confirm {
+  display: block;
+  background-color: #48d23c;
+  padding: 1.2rem 2.2rem;
+  border-radius: 9px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  height: 4rem;
+}
+
+.address input {
+  width: 44rem;
+}
+
+.phone input {
+  width: 30rem;
+}
+
+.company input {
+  width: 44rem;
+}
+
+.cphone input {
+  width: 30rem;
+}

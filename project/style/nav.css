@@ -45,3 +45,51 @@ html {
 	border-radius: 9px;
 	font-size: 2rem;
 }
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+	html {
+		font-size: 50%;
+	}
+
+	.nav {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.nav__li {
+		padding: 1rem;
+		font-size: 2.2rem;
+	}
+
+	.nav__logo {
+		width: 12rem;
+	}
+
+	.btn--nav-contact {
+		padding: 1.5rem 2.5rem;
+		font-size: 2.2rem;
+	}
+}
+
+@media (max-width: 480px) {
+	html {
+		font-size: 40%;
+	}
+
+	.nav {
+		width: 100%;
+		padding-top: 1.5rem;
+	}
+
+	.nav ul {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.nav__li {
+		padding: 0.8rem 1.5rem;
+		font-size: 1.8rem;
+	}
+}

@@ -261,3 +261,26 @@ body {
   color: #627061;
   margin-bottom: 3.4rem;
 }
+@media screen and (max-width:1000px){
+  .process-img {
+  width: 60rem;
+  display: block;
+  margin-left: 0%;
+}
+  .group-1 {
+  top: 6.4rem;
+  left: 14rem;
+}
+.group-2 {
+  top: 31rem;
+  right: 50rem;
+}
+.group-3 {
+  top: 58rem;
+  left: 13rem;
+}
+.group-4 {
+  bottom: 6rem;
+  right: 47rem;
+}
+}

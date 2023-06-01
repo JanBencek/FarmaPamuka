@@ -273,7 +273,7 @@ body {
 }
 .group-2 {
   top: 31rem;
-  right: 50rem;
+  left: 9rem;
 }
 .group-3 {
   top: 58rem;
@@ -281,6 +281,6 @@ body {
 }
 .group-4 {
   bottom: 6rem;
-  right: 47rem;
+  left: 13rem;
 }
 }

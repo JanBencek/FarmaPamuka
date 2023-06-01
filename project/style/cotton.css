@@ -13,6 +13,11 @@ p {
 	line-height: 2.8rem;
 }
 
+.footer {
+	position: fixed;
+	bottom: 0;
+}
+
 .cotton__info {
 	position: relative;
 	padding: 8vh 0;
@@ -41,7 +46,4 @@ p {
 .cotton__info--para2_img {
 	max-width: 306px;
 	padding: 2%;
-}
-.footer {
-	bottom: 0;
 }

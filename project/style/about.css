@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main {
+	width: 100vw;
+	padding: 4rem 0;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+}
+
+.team__info {
+	position: relative;
+	width: 50vw;
+	left: 15%;
+	padding: 5vh 0;
+}
+.team__info--meet {
+	color: #7c9a7a;
+}
+
+.team__info--about {
+	color: #2c7426;
+	font-size: 4rem;
+}
+
+.team__members {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.team__member--column1,
+.team__member--column2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.team__member {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 2rem 0;
+}
+.team__member--img {
+	border-radius: 20px;
+	margin-right: 20px;
+}
+
+.team__member--name {
+	font-size: 2.4rem;
+}
+
+.team__member--role {
+	font-size: 1.6rem;
+}
+
+.team__member--img {
+	max-width: 150px;
+	max-height: 150px;
+}

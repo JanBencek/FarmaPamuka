@@ -10,6 +10,250 @@ html {
 }
 
 .main {
-  height: 10vh;
   width: 100vw;
+  padding: 4rem 0;
+}
+
+.hero {
+  width: 90vw;
+  height: 70vh;
+  margin: 0 auto;
+  border-radius: 11px;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.7) 0%,
+      #ffffff00 70%
+    ),
+    url('../assets/fields-from-air.jpg');
+  background-position: 0 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-box {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+.h-primary {
+  padding-top: 5rem;
+  font-size: 9rem;
+  color: #00410a;
+  letter-spacing: 1px;
+  margin-bottom: 1.2rem;
+}
+
+.hero-text {
+  font-size: 3rem;
+}
+
+.cta-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.cta-hero a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.2rem 2.2rem;
+  border-radius: 9px;
+  font-size: 2rem;
+}
+
+.btn--explore {
+  background-color: #48d23c;
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn--contact {
+  box-shadow: inset 0 0 0 1px #00410a;
+  color: #00410a;
+}
+
+.section-process {
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+  width: 100vw;
+  margin: 3.2 0 6.4rem 0;
+  position: relative;
+}
+
+.process-img {
+  width: 60rem;
+  display: block;
+  margin-left: 25%;
+}
+
+.group {
+  position: absolute;
+}
+
+.group-1 {
+  top: 6.4rem;
+  left: 50rem;
+}
+.group-2 {
+  top: 31rem;
+  right: 9rem;
+}
+.group-3 {
+  top: 58rem;
+  left: 55rem;
+}
+.group-4 {
+  bottom: 6rem;
+  right: 9rem;
+}
+.group-1 h2::before {
+  content: '1';
+}
+.group-2 h2::before {
+  content: '2';
+}
+.group-3 h2::before {
+  content: '3';
+}
+.group-4 h2::before {
+  content: '4';
+}
+
+.group h2::before {
+  position: absolute;
+  top: -0.5rem;
+  left: -0.5rem;
+  background-color: #48d23c;
+  border-radius: 100px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.group h2 {
+  font-size: 2.2rem;
+  text-align: left;
+  padding-left: 4rem;
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+
+.group p {
+  font-size: 2rem;
+  width: 40rem;
+}
+
+.how-its-done {
+  width: 100vw;
+  padding: 8rem 0;
+  background-color: #43933c;
+}
+
+.how-wrapper {
+  width: 80vw;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-img {
+  width: 40rem;
+}
+
+.how-text p {
+  color: #c9ffc4;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.how-text h2 {
+  font-size: 5.8rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 4rem;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  width: 70vw;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.testimonial {
+  background: linear-gradient(to bottom right, #2a7224, #36892f);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4.8rem;
+}
+
+.t-text {
+  font-size: 3rem;
+  margin-bottom: 2.2rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.author-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.t-author {
+  font-size: 2rem;
+  color: #fff;
+  margin-left: 1.2rem;
+  font-weight: 100;
+  display: inline-block;
+}
+
+.t-img {
+  border-radius: 100px;
+  width: 3.2rem !important;
+  height: 3.2rem;
+  display: inline-block;
+}
+
+.cta-contact {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  background-color: #48d23c;
+  padding: 1.2rem 2.2rem;
+  border-radius: 9px;
+  font-size: 2rem;
+}
+
+.cta {
+  padding: 9.6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta h2 {
+  font-size: 6.4rem;
+  color: #36882f;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+
+.cta p {
+  font-size: 3.2rem;
+  color: #627061;
+  margin-bottom: 3.4rem;
 }

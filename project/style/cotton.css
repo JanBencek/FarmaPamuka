@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+.cotton__info {
+	position: relative;
+	padding: 8vh 0;
+	left: 10%;
+	text-align: left;
+	font-size: 2.88rem;
+	color: #2c7426;
+}

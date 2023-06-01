@@ -14,11 +14,6 @@ html {
 	padding: 4rem 0;
 }
 
-.footer {
-	position: fixed;
-	bottom: 0;
-}
-
 .team__info {
 	position: relative;
 	width: 50vw;

@@ -9,7 +9,8 @@ html {
 }
 
 p {
-	font-size: 1.2rem;
+	font-size: 1.6rem;
+	line-height: 2.8rem;
 }
 
 .cotton__info {
@@ -18,5 +19,26 @@ p {
 	left: 10%;
 	text-align: left;
 	font-size: 2.88rem;
+	width: 80vw;
+}
+.cotton__info--title {
 	color: #2c7426;
+	padding-bottom: 4vh;
+}
+
+.cotton__info--para1_list-item {
+	position: relative;
+	left: 1%;
+	font-size: 1.6rem;
+	list-style-position: inside;
+}
+.cotton__info--mix {
+	padding: 2%;
+	display: flex;
+	flex-direction: row;
+}
+
+.cotton__info--para2_img {
+	max-width: 306px;
+	padding: 2%;
 }

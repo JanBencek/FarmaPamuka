@@ -5,35 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cottonic</title>
-    <link
-      rel="shortcut icon"
-      href="assets/logo__icon--light.ico"
-      type="image/x-icon"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/home.css" />
+    <link rel="stylesheet" href="style/nav.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+    <script defer src="js/script.js"></script>
   </head>
   <body>
-    <header class="header">
+    <header>
       <nav class="nav">
-        <a href=".."><img class="nav-logo" src="assets/logo.svg" alt="" /></a>
-        <ul class="nav__ul">
-          <li class="nav__li"><a href="production">production</a></li>
-          <li class="nav__li"><a href="use">cotton use</a></li>
-          <li class="nav__li"><a href="types">cotton types</a></li>
-          <li class="nav__li"><a href="facts">cotton facts</a></li>
+        <img
+          class="nav__logo"
+          src="assets/cottonic.svg"
+          alt="Cottonic brand logo"
+        />
+        <ul>
+          <li class="nav__li nav__li--active"><a href="#">Home</a></li>
+          <li class="nav__li"><a href="#">Become a distributer</a></li>
+          <li class="nav__li"><a href="#">Cotton</a></li>
+          <li class="nav__li"><a href="#">About</a></li>
         </ul>
-        <button class="nav-cta">Contact Us</button>
+        <a class="btn--nav-contact" href="#">Contact Us</a>
       </nav>
     </header>
-    <main class="hero"></main>
-    <footer>
-      <h1>COTTONIZED! COTTONIZED! COTTONIZED!</h1>
+    <main class="main"></main>
+    <footer class="footer" id="footer">
+      <div class="footer__cols">
+        <div class="logo-column">
+          <img
+            src="assets/cottonic.svg"
+            alt="Cottonic brand logo"
+            class="footer__logo"
+          />
+          <div class="brand-logos">
+            <img src="assets/skill-icons_twitter.svg" alt="Twitter logo" />
+            <img src="assets/skill-icons_instagram.svg" alt="Instagram logo" />
+            <img src="assets/devicon_linkedin.svg" alt="LinkedIn logo" />
+          </div>
+        </div>
+        <div class="links-column">
+          <div class="link-row">
+            <ul>
+              <li class="footer__li footer__li--active">
+                <a href="#">Home</a>
+              </li>
+              <li class="footer__li"><a href="#">Become a distributer</a></li>
+              <li class="footer__li"><a href="#">Cotton</a></li>
+              <li class="footer__li"><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div class="link-row">
+            <ul>
+              <li class="footer__li"><a href="#">Privacy Policy</a></li>
+              <li class="footer__li"><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>
+        &copy; 2023 by Karlova Farma Pamuka tam for COTTONIC an aritifical
+        company
+      </p>
     </footer>
   </body>
 </html>

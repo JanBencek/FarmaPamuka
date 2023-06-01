@@ -1,74 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cottonic</title>
-    <link rel="stylesheet" href="style/home.css" />
-    <link rel="stylesheet" href="style/nav.css" />
-    <link rel="stylesheet" href="style/footer.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Kanit"
-      rel="stylesheet"
-    />
-    <script defer src="js/script.js"></script>
-  </head>
-  <body>
-    <header>
-      <nav class="nav">
-        <img
-          class="nav__logo"
-          src="assets/cottonic.svg"
-          alt="Cottonic brand logo"
-        />
-        <ul>
-          <li class="nav__li nav__li--active"><a href="#">Home</a></li>
-          <li class="nav__li"><a href="#">Become a distributer</a></li>
-          <li class="nav__li"><a href="cotton.html">Cotton</a></li>
-          <li class="nav__li"><a href="#">About</a></li>
-        </ul>
-        <a class="btn--nav-contact" href="#">Contact Us</a>
-      </nav>
-    </header>
-    <main class="main"></main>
-    <footer class="footer" id="footer">
-      <div class="footer__cols">
-        <div class="logo-column">
-          <img
-            src="assets/cottonic.svg"
-            alt="Cottonic brand logo"
-            class="footer__logo"
-          />
-          <div class="brand-logos">
-            <img src="assets/skill-icons_twitter.svg" alt="Twitter logo" />
-            <img src="assets/skill-icons_instagram.svg" alt="Instagram logo" />
-            <img src="assets/devicon_linkedin.svg" alt="LinkedIn logo" />
-          </div>
-        </div>
-        <div class="links-column">
-          <div class="link-row">
-            <ul>
-              <li class="footer__li footer__li--active">
-                <a href="#">Home</a>
-              </li>
-              <li class="footer__li"><a href="#">Become a distributer</a></li>
-              <li class="footer__li"><a href="#">Cotton</a></li>
-              <li class="footer__li"><a href="#">About</a></li>
-            </ul>
-          </div>
-          <div class="link-row">
-            <ul>
-              <li class="footer__li"><a href="#">Privacy Policy</a></li>
-              <li class="footer__li"><a href="#">Terms & Conditions</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <p>
-        &copy; 2023 by Karlova Farma Pamuka tam for COTTONIC an aritifical
-        company
-      </p>
-    </footer>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cottonic</title>
+		<link rel="stylesheet" href="style/home.css" />
+		<link rel="stylesheet" href="style/nav.css" />
+		<link rel="stylesheet" href="style/footer.css" />
+		<script defer src="js/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav class="nav">
+				<img
+					class="nav__logo"
+					src="assets/cottonic.svg"
+					alt="Cottonic brand logo"
+				/>
+				<ul>
+					<li class="nav__li nav__li--active"><a href="#">Home</a></li>
+					<li class="nav__li"><a href="#">Become a distributor</a></li>
+					<li class="nav__li"><a href="#">Cotton</a></li>
+					<li class="nav__li"><a href="#">About</a></li>
+				</ul>
+				<a class="btn--nav-contact" href="#">Contact Us</a>
+			</nav>
+		</header>
+		<main class="main">
+			<div class="hero">
+				<div class="text-box">
+					<h1 class="h-primary">Explore how we farm cotton</h1>
+					<p class="hero-text">
+						We are a group of independent farmers who enjoy farming cotton daily
+						on our farms.
+					</p>
+				</div>
+				<div class="cta-hero">
+					<a class="btn--explore" href="#explore">Explore the Farm</a>
+					<a class="btn--contact" href="#">Contact Us</a>
+				</div>
+			</div>
+		</main>
+		<section class="section-process" id="explore">
+			<img
+				src="assets/Union.svg"
+				class="process-img"
+				alt="Image of our process"
+			/>
+			<div class="group group-1">
+				<h2>Pure Cotton</h2>
+				<p>Clean cotton directly from our fields.</p>
+			</div>
+			<div class="group group-2">
+				<h2>Refinement</h2>
+				<p>
+					Cotton is handled by trustworthy factories where they take care and
+					create quality products.
+				</p>
+			</div>
+			<div class="group group-3">
+				<h2>Distribution</h2>
+				<p>
+					Coming straight from the factory, products arebeing distributed to
+					your local clothing shops.
+				</p>
+			</div>
+			<div class="group group-4">
+				<h2>Quality</h2>
+				<p>
+					Customers around the world experience purenessand quality product
+					created from raw material.
+				</p>
+			</div>
+		</section>
+		<section class="how-its-done">
+			<div class="how-wrapper">
+				<div class="how-text">
+					<p>HOW ITS DONE</p>
+					<h2>Plantations spanning across 1500 acres</h2>
+				</div>
+				<div class="testimonial-wrapper">
+					<img src="assets/cotton-field.jpg" class="how-img" alt="" />
+					<div class="testimonial">
+						<p class="t-text">
+							"Our team works everyday, taking care of each and every acre
+							available while expanding the operations at the same time."
+						</p>
+						<div class="author-wrapper">
+							<img class="t-img" src="assets/testimonial.png" alt="" />
+							<p class="t-author">Jan, CEO</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cta" id="cta">
+			<h2>Get straight to business</h2>
+			<p>contact us and we will reach you as soon as possible</p>
+			<a href="#" class="cta-contact">Contact Us</a>
+		</section>
+		<footer class="footer" id="footer">
+			<div class="footer__cols">
+				<div class="logo-column">
+					<img
+						src="assets/cottonic.svg"
+						alt="Cottonic brand logo"
+						class="footer__logo"
+					/>
+					<div class="brand-logos">
+						<img src="assets/skill-icons_twitter.svg" alt="Twitter logo" />
+						<img src="assets/skill-icons_instagram.svg" alt="Instagram logo" />
+						<img src="assets/devicon_linkedin.svg" alt="LinkedIn logo" />
+					</div>
+				</div>
+				<div class="links-column">
+					<div class="link-row">
+						<ul>
+							<li class="footer__li footer__li--active">
+								<a href="#">Home</a>
+							</li>
+							<li class="footer__li"><a href="#">Become a distributer</a></li>
+							<li class="footer__li"><a href="#">Cotton</a></li>
+							<li class="footer__li"><a href="#">About</a></li>
+						</ul>
+					</div>
+					<div class="link-row">
+						<ul>
+							<li class="footer__li"><a href="#">Privacy Policy</a></li>
+							<li class="footer__li"><a href="#">Terms & Conditions</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<p>
+				&copy; 2023 by Karlova Farma Pamuka tam for COTTONIC an aritifical
+				company
+			</p>
+		</footer>
+	</body>
 </html>

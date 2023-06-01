@@ -42,3 +42,6 @@ p {
 	max-width: 306px;
 	padding: 2%;
 }
+.footer {
+	bottom: 0;
+}

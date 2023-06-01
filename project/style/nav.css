@@ -1,0 +1,42 @@
+.nav {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.8rem;
+}
+
+.nav__logo {
+  width: 16rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__li {
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+}
+
+.nav__li--active {
+  font-weight: 700;
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn--nav-contact {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  background-color: #48d23c;
+  padding: 1.2rem 2.2rem;
+  border-radius: 9px;
+  font-size: 2rem;
+}

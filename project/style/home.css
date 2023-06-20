@@ -92,7 +92,7 @@ body {
 .process-img {
 	width: 60rem;
 	display: block;
-	margin: 0 35%;
+	margin: 0 50%;
 }
 
 .group {
@@ -101,19 +101,19 @@ body {
 
 .group-1 {
 	top: 6.4rem;
-	margin-left: 45%;
+	margin: 0 50%;
 }
 .group-2 {
 	top: 31rem;
-	margin-left: 40%;
+	margin: 0 40%;
 }
 .group-3 {
 	top: 58rem;
-	margin-left: 45%;
+	margin: 0 45%;
 }
 .group-4 {
 	bottom: 6rem;
-	margin-left: 40%;
+	margin: 0 40%;
 }
 .group-1 h2::before {
 	content: '1';
